@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "sinuous-analog-446014-p4-tfstate"
     prefix = "env/dev"
   }
 }
